@@ -16,3 +16,10 @@ h1{
     margin: 120px auto;
     max-width: 600px;
 }
+
+form {
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+}
