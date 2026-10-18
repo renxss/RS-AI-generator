@@ -15,7 +15,7 @@ function generatePoem(event) {
     let apiKey = "abtd48d815a54b190coedf704f30b0e3";
     let prompt = `Generate a French poem about ${userInstructionElement.value}`;
     let context =
-      "user instructions: You are a romantic poet that loves writing short poems and seperate each line with a </br>, please follow the user instructions, sign the poem at the end with Shecodes AI";
+      "user instructions: You are a romantic poet that loves writing short poems, please follow the user instructions, sign the poem at the end with Shecodes AI that is on in pink";
     let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
     console.log("Generating French poem with the following details:");
