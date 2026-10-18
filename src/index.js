@@ -21,8 +21,9 @@ function generatePoem(event) {
 
     let poemElement = document.querySelector("#poem");
     poemElement.classList.remove("hidden");
+    poemElement.innerHTML = `Generating a French poem about ${userInstructionElement.value}"`;
 
-    console.log("Generating French poem with the following details:");
+    console.log("Generating a French poem ");
     console.log(`Prompt:${prompt}`);
     console.log(`Context:${context}`);
 
