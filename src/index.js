@@ -1,8 +1,9 @@
 function generatePoem(event) {
     event.preventDefault();
 
-    alert("Generating poem");
-}
+    let poemElement = document.querySelector("#poem");
+    poemElement.innerHTML = "J’ai voulu ce matin te rapporter des roses";
+
 
 let poemFormElement = document.querySelector("poem-generator-form");
 poemFormElement.addEventListener("submit", generatePoem);
