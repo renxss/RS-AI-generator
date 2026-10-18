@@ -77,6 +77,10 @@ form {
     display: block;
 }
 
+.hidden {
+  display: none;
+}
+
 .poem strong {
     font-weight: bold;
     color: #eb51d2;
