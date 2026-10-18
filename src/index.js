@@ -5,7 +5,7 @@ function generatePoem(event) {
     new Typewriter("#poem", {
         strings: "J’ai voulu ce matin te rapporter des roses",
         autoStart: true,
-        delay: 2,
+        delay: 5,
         cursor: "",
     });
 }
