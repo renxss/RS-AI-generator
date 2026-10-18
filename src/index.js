@@ -1,1 +1,8 @@
-alert("Welcome to the Ai Poem Generator!");
+function generatePoem(event) {
+    event.preventDefault();
+
+    alert("Generating poem");
+}
+
+let poemFormElement = document.querySelector("poem-generator-form");
+poemFormElement.addEventListener("submit", generatePoem);
